@@ -12,9 +12,9 @@ $primary: #36a6cf;
 // Then use the example below to import your custom font.
 // Remove the "//" to uncomment it and see it in action.
 // $path-to-fonts: '../fonts/myfont/myfont.css';
-// $font-family-sans-serif: "My Font Name", sans-serif;
+// $font-family-sans-serif: 'Montserrat', sans-serif;
 
 // To use a Google font use the example below.
 // Remove the "//" to uncomment it and see it in action.
-// $path-to-fonts: 'https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap';
-// $font-family-sans-serif: 'Montserrat', sans-serif;
+ $path-to-fonts: 'https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap';
+ $font-family-sans-serif: 'Montserrat', sans-serif;
