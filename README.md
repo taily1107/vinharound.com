@@ -7,7 +7,8 @@
 - bấm Ctrl + C để thoát tất cả các lệnh đang chạy
 
 --------- cấu trúc dự án --------
-- các component html được chia thành nhiều file chứa trong thư mục /partials 
+- làm việc với các file ở thư mục /src
+- các component html được chia thành nhiều file chứa trong thư mục /src/partials 
 - dùng lệnh @@include để include các file html với nhau
 - dự án này tập trung vào các partials có tiền tố _vinh-
 
