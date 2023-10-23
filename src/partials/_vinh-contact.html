@@ -18,7 +18,7 @@
                                 <div class="card bg-pale-primary text-center counter-wrapper">
                                     <div class="card-body py-11">
                                         <h3 class="counter text-nowrap">5000+</h3>
-                                        <p class="mb-0">Satisfied Customers</p>
+                                        <p class="mb-0">Khách hàng hài lòng</p>
                                     </div>
                                     <!--/.card-body -->
                                 </div>
@@ -34,14 +34,14 @@
             </div>
             <!--/column -->
             <div class="col-lg-5">
-                <h2 class="display-4 mb-8">Convinced yet? Let's make something great together.</h2>
+                <h2 class="display-4 mb-8">Liên hệ private tour, tư vấn visa, Cộng tác viên hoặc bất kỳ điều gì với Vinh.</h2>
                 <div class="d-flex flex-row">
                     <div>
                         <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
                     </div>
                     <div>
                         <h5 class="mb-1">Address</h5>
-                        <address>Moonshine St. 14/05 Light City, <br class="d-none d-md-block" />London, United Kingdom</address>
+                        <address>Tầng 17 Vincom Center <br class="d-none d-md-block" />72 Lê Thánh Tôn, Quận 1, TPHCM</address>
                     </div>
                 </div>
                 <div class="d-flex flex-row">
@@ -50,7 +50,16 @@
                     </div>
                     <div>
                         <h5 class="mb-1">Phone</h5>
-                        <p>00 (123) 456 78 90</p>
+                        <p>0933344646</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-headphones"></i> </div>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">Hotline</h5>
+                        <p>0902516672 gặp Ms.Vy là cách nhanh nhất để trao đổi</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row">
@@ -59,7 +68,7 @@
                     </div>
                     <div>
                         <h5 class="mb-1">E-mail</h5>
-                        <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">sandbox@email.com</a></p>
+                        <p class="mb-0"><a href="mailto:vinharound@gmail.com" class="link-body">vinharound@gmail.com</a></p>
                     </div>
                 </div>
             </div>
@@ -68,20 +77,20 @@
         <!--/.row -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                <h2 class="display-4 mb-3 text-center">Drop Us a Line</h2>
-                <p class="lead text-center mb-10">Reach out to us from our contact form and we will get back to you shortly.</p>
+                <h2 class="display-4 mb-3 text-center">What is your question about?</h2>
+                <p class="lead text-center mb-10">Hãy liên hệ với chúng tôi từ biểu mẫu liên hệ của chúng tôi và chúng tôi sẽ liên hệ lại với bạn ngay.</p>
                 <form class="contact-form needs-validation" method="post" action="@@webRoot/assets/php/contact.php" novalidate>
                     <div class="messages"></div>
                     <div class="row gx-4">
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
                                 <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required>
-                                <label for="form_name">First Name *</label>
+                                <label for="form_name">Họ *</label>
                                 <div class="valid-feedback">
                                     Looks good!
                                 </div>
                                 <div class="invalid-feedback">
-                                    Please enter your first name.
+                                    Vui lòng nhập Họ tên.
                                 </div>
                             </div>
                         </div>
@@ -89,12 +98,12 @@
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
                                 <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
-                                <label for="form_lastname">Last Name *</label>
+                                <label for="form_lastname">Tên *</label>
                                 <div class="valid-feedback">
                                     Looks good!
                                 </div>
                                 <div class="invalid-feedback">
-                                    Please enter your last name.
+                                    Vui lòng nhập Họ tên.
                                 </div>
                             </div>
                         </div>
@@ -107,24 +116,20 @@
                                     Looks good!
                                 </div>
                                 <div class="invalid-feedback">
-                                    Please provide a valid email address.
+                                    Vui lòng nhập địa chỉ Email.
                                 </div>
                             </div>
                         </div>
                         <!-- /column -->
                         <div class="col-md-6">
-                            <div class="form-select-wrapper mb-4">
-                                <select class="form-select" id="form-select" name="department" required>
-                                    <option selected disabled value="">Select a department</option>
-                                    <option value="Sales">Sales</option>
-                                    <option value="Marketing">Marketing</option>
-                                    <option value="Customer Support">Customer Support</option>
-                                </select>
+                            <div class="form-floating mb-4">
+                                <input id="form_Phone" type="Phone" name="Phone" class="form-control" placeholder="090000" required>
+                                <label for="form_email">Số điện thoại *</label>
                                 <div class="valid-feedback">
                                     Looks good!
                                 </div>
                                 <div class="invalid-feedback">
-                                    Please select a department.
+                                    Vui lòng nhập số điện thoại.
                                 </div>
                             </div>
                         </div>
@@ -132,18 +137,18 @@
                         <div class="col-12">
                             <div class="form-floating mb-4">
                                 <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
-                                <label for="form_message">Message *</label>
+                                <label for="form_message">Nội dung</label>
                                 <div class="valid-feedback">
                                     Looks good!
                                 </div>
                                 <div class="invalid-feedback">
-                                    Please enter your messsage.
+                                    Vui lòng nhập nội dung.
                                 </div>
                             </div>
                         </div>
                         <!-- /column -->
                         <div class="col-12 text-center">
-                            <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send message">
+                            <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Gửi Thông Tin">
                             <p class="text-muted"><strong>*</strong> These fields are required.</p>
                         </div>
                         <!-- /column -->
