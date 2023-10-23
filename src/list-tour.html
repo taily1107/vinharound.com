@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('_head.html')
+	<!-- <link rel="stylesheet" href="@@webRoot/assets/css/colors/grape.css"> -->
+	<!-- <link rel="preload" href="@@webRoot/assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'"> -->
+</head>
+<body class="bg-soft-primary">
+	<div class="content-wrapper">
+		<header class="position-absolute w-100">
+			<!-- <div class="gradient-5 text-white fw-bold fs-15 mb-2 position-relative" style="z-index: 1;">
+				<div class="container py-2 text-center">
+					<p class="mb-0">✨ Wordpress version of Sandbox is released! Grab a copy <a href="https://1.envato.market/0Jg6NN" class="link-white hover d-inline-flex align-items-center" target="_blank">here <i class="uil uil-arrow-up-right"></i></a></p>
+				</div>
+				
+			</div> -->
+			@@include('_vinh-navbar.html', {
+				"classList": "center-nav navbar-dark navbar-bg-dark",
+				"logoLight": true,
+				"otherClassList": "w-100 d-flex ms-auto",
+				"otherLanguageSelect": true,
+				"otherBtn": true,
+				"otherBtnClassList": "btn-sm btn-primary rounded-pill",
+				"otherBtnText": "Contact",
+				"otherBtnLink": "@@webRoot/contact.html"
+			  })
+		</header>
+		<!-- /header -->
+		@@include('_vinh-list-tour-style1.html')
+		<!-- /section -->
+	</div>
+	<!-- /.content-wrapper -->
+	<footer class="bg-dark text-white">
+		<div class="container py-13 py-md-15">
+			@@include('_vinh-footer-widgets.html')
+		</div>
+		<!-- /.container -->
+	</footer>
+	@@include('_page-progress.html')
+	@@include('_scripts.html')
+</body>
+</html>
