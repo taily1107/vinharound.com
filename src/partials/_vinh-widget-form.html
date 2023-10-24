@@ -1,5 +1,98 @@
 <div class="widget">
     <h4 class="widget-title mb-3">Báo giá</h4>
-    ...form
+    <div class="col-lg-12">
+      <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
+        <div class="messages"></div>
+        <div class="row gx-4">
+          <div class="col-lg-6">
+            <div class="form-floating mb-4 col-lg-12">
+              <input id="from_name" type="text" class="form-control" placeholder="Họ tên" required>
+              <label for="form_name">Họ tên</label>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Vui lòng thêm họ tên.
+              </div>
+            </div>
+          </div>
+          
+          <!-- /column -->
+          <div class="col-lg-6">
+            <div class="form-floating mb-4 col-lg-12">
+              <input id="form_phone" type="text" class="form-control" placeholder="Số điện thoại" required>
+            <label for="form_phone">Số điện thoại</label>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Vui lòng thêm số điện thoại.
+              </div>
+            </div>
+          </div>
+          
+          <!-- /column -->
+          <div class="col-lg-6">
+            <div class="form-floating mb-4 col-lg-12">
+              <input id="form_number" type="number" class="form-control" placeholder="Số lượng" required>
+              <label for="form_number">Số lượng</label>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Vui lòng thêm số lượng.
+              </div>
+            </div>
+          </div>
+          <!-- /column -->
+          <div class="col-md-6">
+            <div class="form-floating mb-4 col-lg-12">
+              <input id="form_email" type="email" name="email" class="form-control" placeholder="jane.doe@example.com" required>
+              <label for="form_email">Email *</label>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Vui lòng thêm Email.
+              </div>
+            </div>
+          </div>
+            <!-- /column -->
+            <div class="col-md-12">
+              <div class="form-floating mb-4 col-lg-12">
+                <input id="form_date" type="date" name="date" class="form-control" placeholder="Ngày khởi hành" required>
+                <label for="form_email">Ngày khởi hành *</label>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Vui lòng thêm ngày khởi hành.
+                </div>
+              </div>
+            </div>
+          <!-- /column -->
+          <div class="col-12">
+            <div class="form-floating mb-4">
+              <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
+              <label for="form_message">Message *</label>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please enter your messsage.
+              </div>
+            </div>
+          </div>
+          <!-- /column -->
+          
+          <div class="col-12 align-items-center">
+            <input type="submit" class="btn btn-primary btn-sm rounded-pill btn-send mb-3 " value="Gửi thông tin">
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </form>
+      <!-- /form -->
+    </div>
   <!-- /.image-list -->
 </div>				
