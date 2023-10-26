@@ -27,8 +27,31 @@
 		</header>
 		<!-- /header -->
 		@@include('_vinh-detail-visa-banner.html')
-		@@include('_vinh-detail-visa-1.html')
-		@@include('_vinh-detail-visa-2.html')
+		<section class="wrapper bg-light">
+			<div class="container py-10 py-md-10">
+        <div class="row gx-lg-8 gx-xl-12">
+          <div class="col-lg-8">
+            @@include('_vinh-detail-visa-info.html')
+          </div>
+          <!-- /column -->
+          <div class="col-lg-4">
+            @@include('_vinh-detail-visa-cost.html')
+          </div>
+          <!-- /column -->
+        </div>
+				<div class="row gx-lg-8 gx-xl-12">
+          <div class="col-lg-8">
+            @@include('_vinh-detail-visa-profile.html')
+          </div>
+          <!-- /column -->
+          <div class="col-lg-4">
+            @@include('_vinh-widget-visa-service.html')
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+    </section>
 		<!-- /section -->
 	</div>
 	<!-- /.content-wrapper -->
