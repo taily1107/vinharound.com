@@ -1,12 +1,7 @@
 <div class="row gy-6 gy-lg-0">
   <div class="col-md-4 col-lg-4">
     <div class="widget">
-      @@if (!context.lightText) {
-        <img class="mb-4" src="@@webRoot/assets/img/logo.png" srcset="@@webRoot/assets/img/logo.png 2x" alt="" />
-      }
-      @@if (context.lightText) {
-        <img class="mb-4" src="@@webRoot/assets/img/logo.png" srcset="@@webRoot/assets/img/logo.png 2x" alt="" />
-      }
+      <img class="mb-4" src="@@webRoot/assets/img/logo.png" srcset="@@webRoot/assets/img/logo.png 2x" alt="" />
       <p class="mb-4">© 2023 VinhAround. <br class="d-none d-lg-block" />All rights reserved.</p>
       <nav class="nav social @@if (context.lightText) {social-white}">
         <a href="#"><i class="uil uil-twitter"></i></a>
@@ -23,7 +18,7 @@
   <div class="col-md-4 col-lg-4">
     <div class="widget">
       <h4 class="widget-title text-primary mb-3">Liên hệ</h4>
-      <a href="mailto:#" @@if (!context.lightText) {class="link-body"}>vinharound@gmail.com</a><br /> 093 334 4646
+      <a href="mailto:#" class="link-body">vinharound@gmail.com</a><br /> 093 334 4646
       <p class="mb-3">Hotline: 090-251-6672 (Ms.Vy)</p>
       <address class="pe-xl-15 pe-xxl-17">LV17-11 Toà nhà Vincom Center 72 Lê Thánh Tôn, Quận 1 TP. Hồ Chí Minh</address>
         <p class="mb-3">Mã số thuế: 0314702049</p>
